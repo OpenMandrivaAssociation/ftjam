@@ -1,6 +1,6 @@
 Name:		ftjam
 Version:	2.5.3rc2
-Release:	%mkrel 0.1
+Release:	%mkrel 0.2
 Summary:	Replacement for make
 License:	BSD-like
 Group:		Development/Other
@@ -8,7 +8,7 @@ URL:		http://www.freetype.org/jam/index.html
 Source0:	http://mesh.dl.sourceforge.net/sourceforge/freetype/%{name}-%{version}.tar.bz2
 Patch0:		ftjam-2.5.3-nostrip.patch
 Conflicts:	boost-jam
-#Obsoletes:	jam
+Obsoletes:	jam
 Provides:	jam
 BuildRequires:	byacc
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
