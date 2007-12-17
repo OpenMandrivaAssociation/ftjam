@@ -11,7 +11,6 @@ Conflicts:	boost-jam
 Obsoletes:	jam
 Provides:	jam
 BuildRequires:	byacc
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 We highly recommend that you use FT Jam as it is 100% backwards
