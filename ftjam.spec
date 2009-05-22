@@ -1,8 +1,8 @@
 Name:		ftjam
 Version:	2.5.3rc2
-Release:	%mkrel 0.2
+Release:	%mkrel 0.3
 Summary:	Replacement for make
-License:	BSD-like
+License:	BSD
 Group:		Development/Other
 URL:		http://www.freetype.org/jam/index.html
 Source0:	http://mesh.dl.sourceforge.net/sourceforge/freetype/%{name}-%{version}.tar.bz2
@@ -11,6 +11,7 @@ Conflicts:	boost-jam
 Obsoletes:	jam
 Provides:	jam
 BuildRequires:	byacc
+BuildRequires:	dos2unix
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
@@ -26,8 +27,11 @@ improvements will be integrated back to classic Jam as soon as possible.
 %setup -q
 %patch0 -p1
 
+# fix CRLF
+dos2unix -U README RELNOTES Porting
+
 %build
-%configure
+%configure2_5x
 %make
 
 %install
