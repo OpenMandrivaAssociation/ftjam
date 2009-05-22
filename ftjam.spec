@@ -1,8 +1,8 @@
 Name:		ftjam
 Version:	2.5.3rc2
-Release:	%mkrel 0.3
+Release:	%mkrel 0.4
 Summary:	Replacement for make
-License:	BSD
+License:	BSD-like
 Group:		Development/Other
 URL:		http://www.freetype.org/jam/index.html
 Source0:	http://mesh.dl.sourceforge.net/sourceforge/freetype/%{name}-%{version}.tar.bz2
