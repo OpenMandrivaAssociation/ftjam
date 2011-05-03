@@ -1,6 +1,6 @@
 Name:		ftjam
 Version:	2.5.3rc2
-Release:	%mkrel 0.7
+Release:	%mkrel 0.8
 Summary:	Replacement for make
 License:	BSD-like
 Group:		Development/Other
