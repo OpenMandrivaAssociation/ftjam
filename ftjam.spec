@@ -28,7 +28,7 @@ improvements will be integrated back to classic Jam as soon as possible.
 %patch0 -p1
 
 # fix CRLF
-dos2unix -U README RELNOTES Porting
+dos2unix README RELNOTES Porting
 
 %build
 %configure2_5x
