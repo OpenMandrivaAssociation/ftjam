@@ -1,6 +1,6 @@
 Name:		ftjam
 Version:	2.5.3rc2
-Release:	%mkrel 0.8
+Release:	0.9
 Summary:	Replacement for make
 License:	BSD-like
 Group:		Development/Other
@@ -31,6 +31,8 @@ improvements will be integrated back to classic Jam as soon as possible.
 dos2unix README RELNOTES Porting
 
 %build
+export CCFLAGS="%{optflags}"
+export LINKFLAGS="%{ldflags}"
 %configure2_5x
 %make
 
