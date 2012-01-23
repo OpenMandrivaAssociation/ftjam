@@ -12,7 +12,6 @@ Obsoletes:	jam
 Provides:	jam
 BuildRequires:	byacc
 BuildRequires:	dos2unix
-BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
 We highly recommend that you use FT Jam as it is 100% backwards
@@ -37,11 +36,7 @@ export LINKFLAGS="%{ldflags}"
 %make
 
 %install
-rm -rf %{buildroot}
 %makeinstall
-
-%clean
-rm -rf %{buildroot}
 
 %files
 %defattr(644,root,root,755)
