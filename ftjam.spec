@@ -7,7 +7,6 @@ Group:		Development/Other
 URL:		http://www.freetype.org/jam/index.html
 Source0:	http://mesh.dl.sourceforge.net/sourceforge/freetype/%{name}-%{version}.tar.bz2
 Patch0:		ftjam-2.5.3-nostrip.patch
-Conflicts:	boost-jam
 %rename		jam
 BuildRequires:	byacc
 BuildRequires:	dos2unix
