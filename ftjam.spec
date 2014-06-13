@@ -1,7 +1,7 @@
 Summary:	Replacement for make
 Name:		ftjam
 Version:	2.5.3rc2
-Release:	6
+Release:	7
 License:	BSD-like
 Group:		Development/Other
 Url:		http://www.freetype.org/jam/index.html
