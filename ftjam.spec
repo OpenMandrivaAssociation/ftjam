@@ -22,7 +22,7 @@ improvements will be integrated back to classic Jam as soon as possible.
 
 %prep
 %setup -q
-%apply_patches
+%autopatch -p1
 
 # fix CRLF
 sed -i 's/\r//' README
