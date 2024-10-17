@@ -4,7 +4,7 @@ Version:	2.5.3rc2
 Release:	12
 License:	BSD-like
 Group:		Development/Other
-Url:		http://www.freetype.org/jam/index.html
+Url:		https://www.freetype.org/jam/index.html
 Source0:	http://mesh.dl.sourceforge.net/sourceforge/freetype/%{name}-%{version}.tar.bz2
 Patch0:		ftjam-2.5.3-nostrip.patch
 
